@@ -16,4 +16,4 @@ fun main() {
         sum += cut
     }
     print(sum)
-}  
+}
