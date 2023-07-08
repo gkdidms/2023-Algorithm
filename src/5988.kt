@@ -10,4 +10,6 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         if (n[n.lastIndex] % 2 == 0) println("even")
         else println("odd")
     }
+
+    
 }
