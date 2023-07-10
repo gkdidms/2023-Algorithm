@@ -11,5 +11,5 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         else println("odd")
     }
 
-    
+
 }
