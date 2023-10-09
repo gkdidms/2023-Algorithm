@@ -13,10 +13,46 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\스택">
+      <UniqueIdentifier>{ee3635cf-fb64-4eaf-bc2d-3403064ee2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\큐">
+      <UniqueIdentifier>{47661333-e564-4e0c-8640-da264ccf8f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\리스트">
+      <UniqueIdentifier>{00104ed3-2884-4d60-8ed8-4b4b00773610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\리스트\연결 리스트">
+      <UniqueIdentifier>{d3794e0b-e133-440f-8925-51541cdb200c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="12605.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="순차 자료구조 스택.cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="연결 자료구조 스택.cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="순차 자료구조 큐.cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
+    <ClCompile Include="원형 큐.cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
+    <ClCompile Include="연결 자료구조 큐.cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
+    <ClCompile Include="이중 연결 리스트 데크.cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
+    <ClCompile Include="단순 연결 리스트.cpp">
+      <Filter>소스 파일\리스트\연결 리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="원형 연결 리스트.cpp">
+      <Filter>소스 파일\리스트\연결 리스트</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
