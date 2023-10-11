@@ -29,7 +29,30 @@ Node* searchNode(LinkedList_h* cl, int _iNum);
 
 int main()
 {
+	LinkedList_h* cl;
+	Node* p;
 
+	cl = CreateLinkedList_h();
+	cout << "1. 원형 연결 리스트 생성하기 !" << endl;
+	
+	cout << "2. 원형 연결 리스트에 1 삽입하기" << endl;
+	insertFirstNode(cl, 1);
+	printList(cl);
+
+	cout << "3. 원형 연결 리스트의 1 노드 뒤에 2 노드 삽입하기" << endl;
+	p = searchNode(cl, 1);
+	insertMiddleNode(cl, p, 2);
+	printList(cl);
+
+	cout << "4. 원형 연결 리스트의 2노드 뒤에 3 삽입하기" << endl;
+	p = searchNode(cl, 2);
+	insertMiddleNode(cl, p, 3);
+	printList(cl);
+
+	cout << "5. 원형 연결 리스트에서 2 노드 삭제하기" << endl;
+	p = searchNode(cl, 2);
+	deleteNode(cl, p);
+	printList(cl);
 }
 
 LinkedList_h* CreateLinkedList_h() {
@@ -43,11 +66,11 @@ void printList(LinkedList_h* cl) {
 	
 	p = cl->head;
 
-	while (p != cl->head) {
-		cout << p->data << endl;
+	do {
+		cout << p->data ;
 		p = p->link;
 		if (p != cl->head) cout << ",";
-	}
+	} while (p != cl->head);
 	cout << endl << endl;
 }
 
