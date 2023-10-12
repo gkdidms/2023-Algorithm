@@ -25,6 +25,15 @@
     <Filter Include="소스 파일\리스트\연결 리스트">
       <UniqueIdentifier>{d3794e0b-e133-440f-8925-51541cdb200c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\트리">
+      <UniqueIdentifier>{a4e53877-f278-4255-9a59-0787d48386ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\트리\이진 트리 순회">
+      <UniqueIdentifier>{2d15c494-80fa-43f2-8d66-6a0863880da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\트리\이진 탐색 트리">
+      <UniqueIdentifier>{ea26b7d7-04d7-4dc0-b854-a8c77bb07084}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="12605.cpp">
@@ -56,6 +65,18 @@
     </ClCompile>
     <ClCompile Include="이중 연결 리스트.cpp">
       <Filter>소스 파일\리스트\연결 리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="이진 트리 순회.cpp">
+      <Filter>소스 파일\트리\이진 트리 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="이진 트리 순회 응용.cpp">
+      <Filter>소스 파일\트리\이진 트리 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="스레드 이진 트리 순회.cpp">
+      <Filter>소스 파일\트리\이진 트리 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="이진 탐색 트리.cpp">
+      <Filter>소스 파일\트리\이진 탐색 트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
