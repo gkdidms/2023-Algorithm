@@ -78,5 +78,11 @@
     <ClCompile Include="이진 탐색 트리.cpp">
       <Filter>소스 파일\트리\이진 탐색 트리</Filter>
     </ClCompile>
+    <ClCompile Include="AVL 트리의 구현.cpp">
+      <Filter>소스 파일\트리\이진 탐색 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="순차 자료구조를 이용한 최대 히프 구현.cpp">
+      <Filter>소스 파일\트리\이진 탐색 트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
